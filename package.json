@@ -1,0 +1,29 @@
+{
+  "name": "animales",
+  "version": "1.0.0",
+  "description": "Uso mocha chai",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlfjavier/animales.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlfjavier/animales/issues"
+  },
+  "homepage": "https://github.com/dlfjavier/animales#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "chai-spies": "^1.0.0"
+  }
+}
